@@ -20,12 +20,13 @@ This project consists of the following components.
 - Make sure your system has .net 6, angular cli version 13 and postgresSQL installed
 - Clone from main branch to your local machine
 - Open the task API solution
-- Replace "TaskDetailsDb" in the appsettings file with our postgresSQL connectionstring
+- Replace "TaskDetailsDb" in the appsettings file with your postgresSQL connectionstring
 - Run migration from PM console with command "Update-Database"
 - Start task API webservice
 - Go to task-client and open a command window in this directory 
 - Run command npm i
 - Run command npm start
 - Go to browser http://localhost:4200/
+- WebAPI swagger https://localhost:7113/swagger/index.html
 
 
