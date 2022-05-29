@@ -1,0 +1,11 @@
+<form (ngSubmit)="saveNewTask()" >
+    <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" class="form-control" name="title" required [(ngModel)]="taskDetail.title">        
+        <label for="status" class="form-label" >Status</label>
+        <input type="number" class="form-control" name="status" required [(ngModel)]="taskDetail.status">
+        <label for="progress" class="form-label">Progress</label>
+        <input type="number" class="form-control" name="progress" required [(ngModel)]="taskDetail.progress">
+        <button class="btn btn-primary float-end m-2" type="submit" data-bs-dismiss="modal"> Submit </button>
+    </div>
+</form>
